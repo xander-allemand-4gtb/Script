@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>Xander HTML Applicatie</h1>
+    </header>
+    <header>
+        <Section id="intro">
+            <h2>meer informatie over deze applicatie!</h2>
+            <main>Dit is een foto van mijn favorite film karakter</main>
+            <img src="images/oegaboega.jpg" 
+            alt=""
+            width="500">
+            <p>hier voor <a href="https://www.alamy.com/stock-photo/shrek.html">meer foto's van shrek</a> . </p>
+        </Section>
+        <section id="lijstjes">
+            <h2>Wat als je mag doen in de klas :</h2>
+            <ul>
+                <li>zwijgen</li>
+                <li>opletten</li>
+                <li>luisteren</li>
+            </ul>
+            <h2>Wat ik niet mag doen in de klas:</h2>
+            <ol>
+                <li>geluiden afpspelen</li>
+                <li>de les verstoren</li>
+            </ol>  
+        </section>   
+    </header>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Wat is jouw bijnaam?
+                </legend>
+                <input type="" placeholder="Schrijf hier je bijnaam">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    wat is jou leeftijd?
+                </legend>
+                <input type="number" name="leeftijd" min="1" max="99">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Wat is de kleur van de muren van het klaslokaal?
+                </legend>
+                <input type="radio" name="kleur" value="rood">Rood lokaal
+                <input type="radio" name="kleur" value="geel">Geel lokaal
+                <input type="radio" name="kleur" value="blauw">Blauw lokaal
+                <input type="radio" name="kleur" value="groen">Groen lokaal
+                <input type="radio" name="kleur" value="paars">Paars lokaal
+            </fieldset>
+            <fieldset>
+                <legend>wat is er aanwezig in het klaslokaal?</legend>
+                <input type="checkbox" name="aanwezig" value="projector">Projector
+                <input type="checkbox" name="aanwezig" value="bord">Bord
+                <input type="checkbox" name="aanwezig" value="stoelen">Stoelen
+                <input type="checkbox" name="aanwezig" value="banken">Banken
+                <input type="checkbox" name="aanwezig" value="stopcontact">Stopcontact
+            </fieldset>
+            <fieldset>
+                <legend>Wat vind je van school</legend>
+                <input type="radio" name="mening" id="ja">leuk
+                <input type="radio" name="mening" id="nee">Stom
+            </fieldset>
+            <button type="submit"> Verzenden</button>
+            <button type="reset">herstellen</button>
+        
+        </form>
+    </section>
+</body>
+</html> 

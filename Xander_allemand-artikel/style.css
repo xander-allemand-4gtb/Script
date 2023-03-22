@@ -1,0 +1,9 @@
+body {
+    background-color: lightsteelblue;
+    color: steelblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h2, p, ul li {
+    margin-bottom: 40px;
+}
