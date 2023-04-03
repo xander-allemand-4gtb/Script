@@ -33,3 +33,67 @@ header {
 #logo {
   width: 100px;
 }
+header i {
+  margin-left: 1.5ch;
+  font-size: 1.1rem;
+}
+* {
+  color: black;
+}
+.border-box {
+  box-sizing: border-box;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(40, 41, 40);
+  color: indigo;
+  font-family: sans-serif;
+  font-size: 75%;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+ul {
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+section {
+  margin: 0.5em auto;
+  box-sizing: border-box;
+  border: 5px solid gold;
+  width: 400px;
+}
+
+section div {
+  border: 5px solid lightseagreen;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff7;
+  text-align: center;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+header nav li {
+  display: inline-block;
+}

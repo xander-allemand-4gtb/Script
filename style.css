@@ -1,5 +1,10 @@
 body {
     background-color: rgb(224, 182, 217);
+    color: steelblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2, p, ul li {
+    margin-bottom: 40px;
 }
 
 #about {
@@ -7,7 +12,7 @@ body {
 }
 
 .col {
-    flex: 1;
+    flex: 5;
     padding: 5%;
 }
 
@@ -20,12 +25,12 @@ body {
     background-color: rgb(90, 228, 143);
 }
 .left {
-    /* width: 30%; */
+    width: 30%;
     flex: 3;
 }
 
 .right {
-    /* width: 70%; */
+    width: 70%;
     flex: 7;
     border-left: 2px dotted lightsteelblue;
 }
