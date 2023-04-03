@@ -97,3 +97,21 @@ section div {
 header nav li {
   display: inline-block;
 }
+.videoframe {
+  overflow: hidden;
+  margin-bottom: 3rem;
+  max-height: 50vh;
+}
+
+video {
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.flex-item {
+  flex: 1;
+}
