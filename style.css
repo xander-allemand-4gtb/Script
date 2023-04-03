@@ -12,12 +12,13 @@ h2, p, ul li {
 }
 
 .col {
-    flex: 5;
+    flex: 12;
     padding: 5%;
 }
 
 .left {
     background-color: #5bc7f1;
+    
 }
 
 .right {
