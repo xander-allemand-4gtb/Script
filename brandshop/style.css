@@ -31,7 +31,8 @@ header {
 }
 
 #logo {
-  width: 100px;
+  width: 50px;
+  margin: 10px;
 }
 header i {
   margin-left: 1.5ch;
