@@ -71,48 +71,6 @@ h2 {
   padding-top: 6px;
   padding-left: 10px;
 }
-
-section {
-  margin: 0.5em auto;
-  box-sizing: border-box;
-  border: 5px solid gold;
-  width: 400px;
-}
-
-section div {
-  border: 5px solid lightseagreen;
+video{
   width: 100%;
-  padding: 30px;
-  background-color: #fff7;
-  text-align: center;
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-}
-header nav li {
-  display: inline-block;
-}
-.videoframe {
-  overflow: hidden;
-  margin-bottom: 3rem;
-  max-height: 50vh;
-}
-
-video {
-  width: 100%;
-}
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.flex-item {
-  flex: 1;
 }
